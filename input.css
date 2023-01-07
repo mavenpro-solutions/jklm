@@ -5,9 +5,9 @@
 @layer components {
     @font-face {
         font-family: "Graphik";
-        src: url("./assets/fonts/eot/Graphik-Light.eot");
-        src: url("./assets/fonts/eot/Graphik-Light.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/woff2/Graphik-Light.woff2") format("woff2"), url("./assets/fonts/woff/Graphik-Light.woff") format("woff"),
-            url("./assets/fonts/ttf/Graphik-Light.ttf") format("truetype"), url("./assets/fonts/svg/Graphik-Light.svg#Graphik-Light") format("svg");
+        src: url("../fonts/eot/Graphik-Light.eot");
+        src: url("../fonts/eot/Graphik-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/Graphik-Light.woff2") format("woff2"), url("../fonts/woff/Graphik-Light.woff") format("woff"),
+            url("../fonts/ttf/Graphik-Light.ttf") format("truetype"), url("../fonts/svg/Graphik-Light.svg#Graphik-Light") format("svg");
         font-weight: 300;
         font-style: normal;
         font-display: swap;
@@ -15,9 +15,9 @@
 
     @font-face {
         font-family: "Graphik";
-        src: url("./assets/fonts/eot/Graphik-BlackItalic.eot");
-        src: url("./assets/fonts/eot/Graphik-BlackItalic.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/woff2/Graphik-BlackItalic.woff2") format("woff2"), url("./assets/fonts/woff/Graphik-BlackItalic.woff") format("woff"),
-            url("./assets/fonts/ttf/Graphik-BlackItalic.ttf") format("truetype"), url("./assets/fonts/svg/Graphik-BlackItalic.svg#Graphik-BlackItalic") format("svg");
+        src: url("../fonts/eot/Graphik-BlackItalic.eot");
+        src: url("../fonts/eot/Graphik-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/Graphik-BlackItalic.woff2") format("woff2"), url("../fonts/woff/Graphik-BlackItalic.woff") format("woff"),
+            url("../fonts/ttf/Graphik-BlackItalic.ttf") format("truetype"), url("../fonts/svg/Graphik-BlackItalic.svg#Graphik-BlackItalic") format("svg");
         font-weight: 900;
         font-style: italic;
         font-display: swap;
@@ -25,9 +25,9 @@
 
     @font-face {
         font-family: "Graphik";
-        src: url("./assets/fonts/eot/Graphik-Medium.eot");
-        src: url("./assets/fonts/eot/Graphik-Medium.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/woff2/Graphik-Medium.woff2") format("woff2"), url("./assets/fonts/woff/Graphik-Medium.woff") format("woff"),
-            url("./assets/fonts/ttf/Graphik-Medium.ttf") format("truetype"), url("./assets/fonts/svg/Graphik-Medium.svg#Graphik-Medium") format("svg");
+        src: url("../fonts/eot/Graphik-Medium.eot");
+        src: url("../fonts/eot/Graphik-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/Graphik-Medium.woff2") format("woff2"), url("../fonts/woff/Graphik-Medium.woff") format("woff"),
+            url("../fonts/ttf/Graphik-Medium.ttf") format("truetype"), url("../fonts/svg/Graphik-Medium.svg#Graphik-Medium") format("svg");
         font-weight: 500;
         font-style: normal;
         font-display: swap;
@@ -35,9 +35,9 @@
 
     @font-face {
         font-family: "Graphik";
-        src: url("./assets/fonts/eot/Graphik-Black.eot");
-        src: url("./assets/fonts/eot/Graphik-Black.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/woff2/Graphik-Black.woff2") format("woff2"), url("./assets/fonts/woff/Graphik-Black.woff") format("woff"),
-            url("./assets/fonts/ttf/Graphik-Black.ttf") format("truetype"), url("./assets/fonts/svg/Graphik-Black.svg#Graphik-Black") format("svg");
+        src: url("../fonts/eot/Graphik-Black.eot");
+        src: url("../fonts/eot/Graphik-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/Graphik-Black.woff2") format("woff2"), url("../fonts/woff/Graphik-Black.woff") format("woff"),
+            url("../fonts/ttf/Graphik-Black.ttf") format("truetype"), url("../fonts/svg/Graphik-Black.svg#Graphik-Black") format("svg");
         font-weight: 900;
         font-style: normal;
         font-display: swap;
@@ -45,10 +45,9 @@
 
     @font-face {
         font-family: "Graphik";
-        src: url("./assets/fonts/eot/Graphik-ExtralightItalic.eot");
-        src: url("./assets/fonts/eot/Graphik-ExtralightItalic.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/woff2/Graphik-ExtralightItalic.woff2") format("woff2"),
-            url("./assets/fonts/woff/Graphik-ExtralightItalic.woff") format("woff"), url("./assets/fonts/ttf/Graphik-ExtralightItalic.ttf") format("truetype"),
-            url("./assets/fonts/svg/Graphik-ExtralightItalic.svg#Graphik-ExtralightItalic") format("svg");
+        src: url("../fonts/eot/Graphik-ExtralightItalic.eot");
+        src: url("../fonts/eot/Graphik-ExtralightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/Graphik-ExtralightItalic.woff2") format("woff2"), url("../fonts/woff/Graphik-ExtralightItalic.woff") format("woff"),
+            url("../fonts/ttf/Graphik-ExtralightItalic.ttf") format("truetype"), url("../fonts/svg/Graphik-ExtralightItalic.svg#Graphik-ExtralightItalic") format("svg");
         font-weight: 200;
         font-style: italic;
         font-display: swap;
@@ -56,9 +55,9 @@
 
     @font-face {
         font-family: "Graphik";
-        src: url("./assets/fonts/eot/Graphik-LightItalic.eot");
-        src: url("./assets/fonts/eot/Graphik-LightItalic.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/woff2/Graphik-LightItalic.woff2") format("woff2"), url("./assets/fonts/woff/Graphik-LightItalic.woff") format("woff"),
-            url("./assets/fonts/ttf/Graphik-LightItalic.ttf") format("truetype"), url("./assets/fonts/svg/Graphik-LightItalic.svg#Graphik-LightItalic") format("svg");
+        src: url("../fonts/eot/Graphik-LightItalic.eot");
+        src: url("../fonts/eot/Graphik-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/Graphik-LightItalic.woff2") format("woff2"), url("../fonts/woff/Graphik-LightItalic.woff") format("woff"),
+            url("../fonts/ttf/Graphik-LightItalic.ttf") format("truetype"), url("../fonts/svg/Graphik-LightItalic.svg#Graphik-LightItalic") format("svg");
         font-weight: 300;
         font-style: italic;
         font-display: swap;
@@ -66,9 +65,9 @@
 
     @font-face {
         font-family: "Graphik";
-        src: url("./assets/fonts/eot/Graphik-Extralight.eot");
-        src: url("./assets/fonts/eot/Graphik-Extralight.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/woff2/Graphik-Extralight.woff2") format("woff2"), url("./assets/fonts/woff/Graphik-Extralight.woff") format("woff"),
-            url("./assets/fonts/ttf/Graphik-Extralight.ttf") format("truetype"), url("./assets/fonts/svg/Graphik-Extralight.svg#Graphik-Extralight") format("svg");
+        src: url("../fonts/eot/Graphik-Extralight.eot");
+        src: url("../fonts/eot/Graphik-Extralight.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/Graphik-Extralight.woff2") format("woff2"), url("../fonts/woff/Graphik-Extralight.woff") format("woff"),
+            url("../fonts/ttf/Graphik-Extralight.ttf") format("truetype"), url("../fonts/svg/Graphik-Extralight.svg#Graphik-Extralight") format("svg");
         font-weight: 200;
         font-style: normal;
         font-display: swap;
@@ -76,9 +75,9 @@
 
     @font-face {
         font-family: "Graphik";
-        src: url("./assets/fonts/eot/Graphik-BoldItalic.eot");
-        src: url("./assets/fonts/eot/Graphik-BoldItalic.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/woff2/Graphik-BoldItalic.woff2") format("woff2"), url("./assets/fonts/woff/Graphik-BoldItalic.woff") format("woff"),
-            url("./assets/fonts/ttf/Graphik-BoldItalic.ttf") format("truetype"), url("./assets/fonts/svg/Graphik-BoldItalic.svg#Graphik-BoldItalic") format("svg");
+        src: url("../fonts/eot/Graphik-BoldItalic.eot");
+        src: url("../fonts/eot/Graphik-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/Graphik-BoldItalic.woff2") format("woff2"), url("../fonts/woff/Graphik-BoldItalic.woff") format("woff"),
+            url("../fonts/ttf/Graphik-BoldItalic.ttf") format("truetype"), url("../fonts/svg/Graphik-BoldItalic.svg#Graphik-BoldItalic") format("svg");
         font-weight: bold;
         font-style: italic;
         font-display: swap;
@@ -86,9 +85,9 @@
 
     @font-face {
         font-family: "Graphik";
-        src: url("./assets/fonts/eot/Graphik-Bold.eot");
-        src: url("./assets/fonts/eot/Graphik-Bold.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/woff2/Graphik-Bold.woff2") format("woff2"), url("./assets/fonts/woff/Graphik-Bold.woff") format("woff"),
-            url("./assets/fonts/ttf/Graphik-Bold.ttf") format("truetype"), url("./assets/fonts/svg/Graphik-Bold.svg#Graphik-Bold") format("svg");
+        src: url("../fonts/eot/Graphik-Bold.eot");
+        src: url("../fonts/eot/Graphik-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/Graphik-Bold.woff2") format("woff2"), url("../fonts/woff/Graphik-Bold.woff") format("woff"),
+            url("../fonts/ttf/Graphik-Bold.ttf") format("truetype"), url("../fonts/svg/Graphik-Bold.svg#Graphik-Bold") format("svg");
         font-weight: bold;
         font-style: normal;
         font-display: swap;
@@ -96,9 +95,9 @@
 
     @font-face {
         font-family: "Graphik";
-        src: url("./assets/fonts/eot/Graphik-Thin.eot");
-        src: url("./assets/fonts/eot/Graphik-Thin.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/woff2/Graphik-Thin.woff2") format("woff2"), url("./assets/fonts/woff/Graphik-Thin.woff") format("woff"),
-            url("./assets/fonts/ttf/Graphik-Thin.ttf") format("truetype"), url("./assets/fonts/svg/Graphik-Thin.svg#Graphik-Thin") format("svg");
+        src: url("../fonts/eot/Graphik-Thin.eot");
+        src: url("../fonts/eot/Graphik-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/Graphik-Thin.woff2") format("woff2"), url("../fonts/woff/Graphik-Thin.woff") format("woff"),
+            url("../fonts/ttf/Graphik-Thin.ttf") format("truetype"), url("../fonts/svg/Graphik-Thin.svg#Graphik-Thin") format("svg");
         font-weight: 100;
         font-style: normal;
         font-display: swap;
@@ -106,9 +105,9 @@
 
     @font-face {
         font-family: "Graphik";
-        src: url("./assets/fonts/eot/Graphik-ThinItalic.eot");
-        src: url("./assets/fonts/eot/Graphik-ThinItalic.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/woff2/Graphik-ThinItalic.woff2") format("woff2"), url("./assets/fonts/woff/Graphik-ThinItalic.woff") format("woff"),
-            url("./assets/fonts/ttf/Graphik-ThinItalic.ttf") format("truetype"), url("./assets/fonts/svg/Graphik-ThinItalic.svg#Graphik-ThinItalic") format("svg");
+        src: url("../fonts/eot/Graphik-ThinItalic.eot");
+        src: url("../fonts/eot/Graphik-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/Graphik-ThinItalic.woff2") format("woff2"), url("../fonts/woff/Graphik-ThinItalic.woff") format("woff"),
+            url("../fonts/ttf/Graphik-ThinItalic.ttf") format("truetype"), url("../fonts/svg/Graphik-ThinItalic.svg#Graphik-ThinItalic") format("svg");
         font-weight: 100;
         font-style: italic;
         font-display: swap;
@@ -116,9 +115,9 @@
 
     @font-face {
         font-family: "Graphik Super";
-        src: url("./assets/fonts/eot/Graphik-Super.eot");
-        src: url("./assets/fonts/eot/Graphik-Super.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/woff2/Graphik-Super.woff2") format("woff2"), url("./assets/fonts/woff/Graphik-Super.woff") format("woff"),
-            url("./assets/fonts/ttf/Graphik-Super.ttf") format("truetype"), url("./assets/fonts/svg/Graphik-Super.svg#Graphik-Super") format("svg");
+        src: url("../fonts/eot/Graphik-Super.eot");
+        src: url("../fonts/eot/Graphik-Super.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/Graphik-Super.woff2") format("woff2"), url("../fonts/woff/Graphik-Super.woff") format("woff"),
+            url("../fonts/ttf/Graphik-Super.ttf") format("truetype"), url("../fonts/svg/Graphik-Super.svg#Graphik-Super") format("svg");
         font-weight: 900;
         font-style: normal;
         font-display: swap;
@@ -126,9 +125,9 @@
 
     @font-face {
         font-family: "Graphik";
-        src: url("./assets/fonts/eot/Graphik-Semibold.eot");
-        src: url("./assets/fonts/eot/Graphik-Semibold.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/woff2/Graphik-Semibold.woff2") format("woff2"), url("./assets/fonts/woff/Graphik-Semibold.woff") format("woff"),
-            url("./assets/fonts/ttf/Graphik-Semibold.ttf") format("truetype"), url("./assets/fonts/svg/Graphik-Semibold.svg#Graphik-Semibold") format("svg");
+        src: url("../fonts/eot/Graphik-Semibold.eot");
+        src: url("../fonts/eot/Graphik-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/Graphik-Semibold.woff2") format("woff2"), url("../fonts/woff/Graphik-Semibold.woff") format("woff"),
+            url("../fonts/ttf/Graphik-Semibold.ttf") format("truetype"), url("../fonts/svg/Graphik-Semibold.svg#Graphik-Semibold") format("svg");
         font-weight: 600;
         font-style: normal;
         font-display: swap;
@@ -136,9 +135,9 @@
 
     @font-face {
         font-family: "Graphik";
-        src: url("./assets/fonts/eot/Graphik-SemiboldItalic.eot");
-        src: url("./assets/fonts/eot/Graphik-SemiboldItalic.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/woff2/Graphik-SemiboldItalic.woff2") format("woff2"), url("./assets/fonts/woff/Graphik-SemiboldItalic.woff") format("woff"),
-            url("./assets/fonts/ttf/Graphik-SemiboldItalic.ttf") format("truetype"), url("./assets/fonts/svg/Graphik-SemiboldItalic.svg#Graphik-SemiboldItalic") format("svg");
+        src: url("../fonts/eot/Graphik-SemiboldItalic.eot");
+        src: url("../fonts/eot/Graphik-SemiboldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/Graphik-SemiboldItalic.woff2") format("woff2"), url("../fonts/woff/Graphik-SemiboldItalic.woff") format("woff"),
+            url("../fonts/ttf/Graphik-SemiboldItalic.ttf") format("truetype"), url("../fonts/svg/Graphik-SemiboldItalic.svg#Graphik-SemiboldItalic") format("svg");
         font-weight: 600;
         font-style: italic;
         font-display: swap;
@@ -146,9 +145,9 @@
 
     @font-face {
         font-family: "Graphik";
-        src: url("./assets/fonts/eot/Graphik-Regular.eot");
-        src: url("./assets/fonts/eot/Graphik-Regular.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/woff2/Graphik-Regular.woff2") format("woff2"), url("./assets/fonts/woff/Graphik-Regular.woff") format("woff"),
-            url("./assets/fonts/ttf/Graphik-Regular.ttf") format("truetype"), url("./assets/fonts/svg/Graphik-Regular.svg#Graphik-Regular") format("svg");
+        src: url("../fonts/eot/Graphik-Regular.eot");
+        src: url("../fonts/eot/Graphik-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/Graphik-Regular.woff2") format("woff2"), url("../fonts/woff/Graphik-Regular.woff") format("woff"),
+            url("../fonts/ttf/Graphik-Regular.ttf") format("truetype"), url("../fonts/svg/Graphik-Regular.svg#Graphik-Regular") format("svg");
         font-weight: normal;
         font-style: normal;
         font-display: swap;
@@ -156,9 +155,9 @@
 
     @font-face {
         font-family: "Graphik";
-        src: url("./assets/fonts/eot/Graphik-RegularItalic.eot");
-        src: url("./assets/fonts/eot/Graphik-RegularItalic.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/woff2/Graphik-RegularItalic.woff2") format("woff2"), url("./assets/fonts/woff/Graphik-RegularItalic.woff") format("woff"),
-            url("./assets/fonts/ttf/Graphik-RegularItalic.ttf") format("truetype"), url("./assets/fonts/svg/Graphik-RegularItalic.svg#Graphik-RegularItalic") format("svg");
+        src: url("../fonts/eot/Graphik-RegularItalic.eot");
+        src: url("../fonts/eot/Graphik-RegularItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/Graphik-RegularItalic.woff2") format("woff2"), url("../fonts/woff/Graphik-RegularItalic.woff") format("woff"),
+            url("../fonts/ttf/Graphik-RegularItalic.ttf") format("truetype"), url("../fonts/svg/Graphik-RegularItalic.svg#Graphik-RegularItalic") format("svg");
         font-weight: normal;
         font-style: italic;
         font-display: swap;
@@ -166,9 +165,9 @@
 
     @font-face {
         font-family: "Graphik Super";
-        src: url("./assets/fonts/eot/Graphik-SuperItalic.eot");
-        src: url("./assets/fonts/eot/Graphik-SuperItalic.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/woff2/Graphik-SuperItalic.woff2") format("woff2"), url("./assets/fonts/woff/Graphik-SuperItalic.woff") format("woff"),
-            url("./assets/fonts/ttf/Graphik-SuperItalic.ttf") format("truetype"), url("./assets/fonts/svg/Graphik-SuperItalic.svg#Graphik-SuperItalic") format("svg");
+        src: url("../fonts/eot/Graphik-SuperItalic.eot");
+        src: url("../fonts/eot/Graphik-SuperItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/Graphik-SuperItalic.woff2") format("woff2"), url("../fonts/woff/Graphik-SuperItalic.woff") format("woff"),
+            url("../fonts/ttf/Graphik-SuperItalic.ttf") format("truetype"), url("../fonts/svg/Graphik-SuperItalic.svg#Graphik-SuperItalic") format("svg");
         font-weight: 900;
         font-style: italic;
         font-display: swap;
@@ -176,18 +175,18 @@
 
     @font-face {
         font-family: "Graphik";
-        src: url("./assets/fonts/eot/Graphik-MediumItalic.eot");
-        src: url("./assets/fonts/eot/Graphik-MediumItalic.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/woff2/Graphik-MediumItalic.woff2") format("woff2"), url("./assets/fonts/woff/Graphik-MediumItalic.woff") format("woff"),
-            url("./assets/fonts/ttf/Graphik-MediumItalic.ttf") format("truetype"), url("./assets/fonts/svg/Graphik-MediumItalic.svg#Graphik-MediumItalic") format("svg");
+        src: url("../fonts/eot/Graphik-MediumItalic.eot");
+        src: url("../fonts/eot/Graphik-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/Graphik-MediumItalic.woff2") format("woff2"), url("../fonts/woff/Graphik-MediumItalic.woff") format("woff"),
+            url("../fonts/ttf/Graphik-MediumItalic.ttf") format("truetype"), url("../fonts/svg/Graphik-MediumItalic.svg#Graphik-MediumItalic") format("svg");
         font-weight: 500;
         font-style: italic;
         font-display: swap;
     }
     @font-face {
         font-family: "Bubblegum Sans";
-        src: url("./assets/fonts/eot/BubblegumSans-Regular.eot");
-        src: url("./assets/fonts/eot/BubblegumSans-Regular.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/woff2/BubblegumSans-Regular.woff2") format("woff2"), url("./assets/fonts/woff/BubblegumSans-Regular.woff") format("woff"),
-            url("./assets/fonts/ttf/BubblegumSans-Regular.ttf") format("truetype"), url("./assets/fonts/svg/BubblegumSans-Regular.svg#BubblegumSans-Regular") format("svg");
+        src: url("../fonts/eot/BubblegumSans-Regular.eot");
+        src: url("../fonts/eot/BubblegumSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/BubblegumSans-Regular.woff2") format("woff2"), url("../fonts/woff/BubblegumSans-Regular.woff") format("woff"),
+            url("../fonts/ttf/BubblegumSans-Regular.ttf") format("truetype"), url("../fonts/svg/BubblegumSans-Regular.svg#BubblegumSans-Regular") format("svg");
         font-weight: normal;
         font-style: normal;
         font-display: swap;
@@ -200,7 +199,10 @@
     }
 
     .text-shadow {
-        text-shadow: -1px 0px 9px rgba(0, 0, 0, 0.7);
+        text-shadow: 0.5px 0.866px 5px rgb(0, 0, 0);
+        -moz-transform: matrix(1.36230477468998, 0, 0, 1.36230488626738, 0, 0);
+        -webkit-transform: matrix(1.36230477468998, 0, 0, 1.36230488626738, 0, 0);
+        -ms-transform: matrix(1.36230477468998, 0, 0, 1.36230488626738, 0, 0);
     }
 
     .mfp-fade.mfp-bg {
@@ -254,42 +256,65 @@
         opacity: 0;
     }
     .mfp-author .title.t_u {
-        @apply text-3xl font-bubblegum-sans text-color-1 font-medium  mb-1;
-    }
-    .mfp-author .title.t_u:first-child {
-        @apply mb-4;
+        @apply text-3xl font-bubblegum-sans text-color-1 mb-1;
     }
     .mfp-author p {
         @apply text-lg font-graphik text-color-4  mb-8;
     }
     .mfp-author .date {
-        @apply text-[22px] font-bubblegum-sans text-color-1 font-medium  mb-1;
+        @apply text-[22px] font-bubblegum-sans text-color-4 mb-1;
+    }
+    .wavy-line.active,
+    .wavy-line:hover {
+        background-image: url("../images/image_10.png");
+        background-repeat: no-repeat;
+        background-position: center calc(50% + 18px);
     }
     .wavy-line {
-        position: relative;
+        @apply py-4;
     }
-    .wavy-line:before {
-        content: attr(data-wave-size) !important;
-        position: absolute;
-        left: 50%;
-        font-family: "Courier New", Courier, monospace;
-        transform: translateX(-50%);
-        bottom: -8px;
-        text-decoration-style: wavy;
-        text-decoration-line: underline;
+    .wavy-line:hover {
+        background-image: url("../images/image_10.png");
+        background-repeat: no-repeat;
+        background-position: center calc(50% + 18px);
+    }
 
-        @apply text-transparent decoration-color-1;
+    .title-wavy-line {
+        background-image: url("../images/image_11.png");
+        background-repeat: no-repeat;
+        background-position: center calc(50% + 15px);
+        @apply pb-4;
     }
+    @screen lg {
+        .title-wavy-line {
+            background-size: 100px;
+            background-position: center calc(50% + 25px);
+            @apply pb-7;
+        }
+    }
+
+    .title-wavy-line.white {
+        background-image: url("../images/image_12.png");
+    }
+
     .bg-active {
-        background-image: url("assets/backgrounds/bg_3.png");
+        background-image: url("../backgrounds/bg_3.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
+
     .bg-btn {
-        background-image: url("assets/backgrounds/bg_6.png");
+        background-image: url("../backgrounds/bg_6.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
+
+    .date-btn:hover {
+        background-image: url("../backgrounds/bg_3.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
     .mobile-menu {
         visibility: hidden;
         @apply bg-opacity-0 fixed  top-0 left-0 z-20 w-full h-screen transition-all duration-200 ease-in-out bg-black lg:hidden select-none;
@@ -304,5 +329,8 @@
 
     .open-menu ul {
         @apply -translate-x-0;
+    }
+    .event-box > p {
+        @apply mb-6 text-[17px] font-normal font-graphik text-color-4 max-w-2xl;
     }
 }

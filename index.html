@@ -4,16 +4,16 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="static-files/output.css" />
+        <link rel="stylesheet" href="assets/css/custom.css" />
         <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-        <script src="static-files/assets/js/jquery.magnific-popup.min.js"></script>
-        <link rel="stylesheet" href="static-files/assets/css/magnific-popup.css" />
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <link rel="stylesheet" href="assets/css/magnific-popup.css" />
         <title>Document</title>
     </head>
     <body>
         <div class="mfp-hide">
             <div class="container m-2 mx-auto" id="speaker_content_205">
-                <div class="grid grid-cols-1 bg-white bg-cover lg:grid-cols-12 mfp-with-anim mfp-author" style="background-image: url('static-files/assets/backgrounds/bg_8.png')">
+                <div class="grid grid-cols-1 bg-white bg-cover lg:grid-cols-12 mfp-with-anim mfp-author" style="background-image: url('assets/backgrounds/bg_8.png')">
                     <img src="https://kolkatalitmeet.in/2022/jklm/wp-content/uploads/2022/03/Lavanya-Karthik.jpg" class="object-cover w-full h-full col-span-1 lg:col-span-5" alt="" />
                     <div class="col-span-1 px-8 lg:col-span-7 py-14">
                         <h2 class="title t_u">Lavanya Karthik</h2>
@@ -25,7 +25,7 @@
 
                         <h2 class="title t_u">Attending Session</h2>
                         <p>
-                            <span class="date">March 24, 2022 ● 9.30 am</span><br />
+                            <span class="date">March 24, 2022 <span class="text-base">●</span> 9.30 am</span><br />
                             <em>The Boy Who Played with Light - Satyajit Ray (Online)</em> - <span style="font-weight: 400">Lavanya Karthik&nbsp;(Online)&nbsp;</span>
                         </p>
                     </div>
@@ -36,36 +36,34 @@
         <!-- header -->
         <header class="container flex items-center justify-between px-4 py-4 mx-auto">
             <div class="flex items-center gap-4 lg:gap-8">
-                <a href=""> <img src="static-files/assets/logo/klm.png" alt="logo" class="max-w-[70px] sm:max-w-[90px] lg:max-w-[170px]" /></a>
-                <a href=""> <img src="static-files/assets/images/image_1.png" alt="logo" class="max-w-[70px] sm:max-w-[90px] lg:max-w-[170px]" /></a>
+                <a href=""> <img src="assets/logo/klm.png" alt="logo" class="max-w-[75px] sm:max-w-[90px] lg:max-w-[170px]" /></a>
+                <a href=""> <img src="assets/images/image_1.png" alt="logo" class="max-w-[75px] sm:max-w-[90px] lg:max-w-[170px]" /></a>
             </div>
-            <div class="flex items-center gap-4 lg:gap-8">
-                <button class="space-y-2 lg:hidden menu-btn">
-                    <div class="w-8 h-0.5 bg-color-3"></div>
-                    <div class="w-8 h-0.5 bg-color-3"></div>
-                    <div class="w-8 h-0.5 bg-color-3"></div>
+            <div class="flex items-center gap-4 lg:gap-[68px]">
+                <button class="lg:hidden menu-btn">
+                    <img src="assets/images/image_13.png" class="w-8" alt="" />
                 </button>
 
                 <!-- desktop menu -->
                 <nav class="hidden lg:block main-menu">
-                    <ul class="flex items-center justify-center gap-12 main-menu">
+                    <ul class="flex items-center justify-center gap-[56px] main-menu">
                         <li class="">
-                            <a class="text-2xl font-medium font-bubblegum-sans text-color-4 hover:text-color-1 wavy-line before:!content-[''] hover:before:!content-[attr(data-wave-size)]" data-wave-size="XXX" href="#">Home </a>
+                            <a class="text-2xl font-medium font-bubblegum-sans text-color-1 wavy-line active" href="#">Home </a>
                         </li>
                         <li>
-                            <a class="text-2xl font-medium font-bubblegum-sans text-color-4 hover:text-color-1 wavy-line before:!content-[''] hover:before:!content-[attr(data-wave-size)]" href="#schedule-section" data-wave-size="XXX">Schedule </a>
+                            <a class="text-2xl font-medium font-bubblegum-sans text-color-4 hover:text-color-1 wavy-line" href="#schedule-section">Schedule </a>
                         </li>
                         <li>
-                            <a class="text-2xl font-medium font-bubblegum-sans text-color-4 hover:text-color-1 wavy-line before:!content-[''] hover:before:!content-[attr(data-wave-size)]" href="#speaker-section" data-wave-size="XXX">Speakers </a>
+                            <a class="text-2xl font-medium font-bubblegum-sans text-color-4 hover:text-color-1 wavy-line" href="#speaker-section">Speakers </a>
                         </li>
                         <li>
-                            <a class="text-2xl font-medium font-bubblegum-sans text-color-4 hover:text-color-1 wavy-line before:!content-[''] hover:before:!content-[attr(data-wave-size)]" href="#sponsor-section" data-wave-size="XXX"> Sponsors </a>
+                            <a class="text-2xl font-medium font-bubblegum-sans text-color-4 hover:text-color-1 wavy-line" href="#sponsor-section"> Sponsors </a>
                         </li>
                     </ul>
                 </nav>
                 <!-- end of desktop menu -->
 
-                <a href=""> <img src="static-files/assets/logo/jklm.png" alt="logo" class="max-w-[70px] sm:max-w-[90px] lg:max-w-[170px]" /></a>
+                <a href=""> <img src="assets/logo/jklm.png" alt="logo" class="max-w-[70px] sm:max-w-[90px] lg:max-w-[170px]" /></a>
 
                 <!-- mobile menu -->
                 <nav class="mobile-menu overlay main-menu">
@@ -92,20 +90,20 @@
         <!-- banner -->
         <section class="relative">
             <div class="w-full">
-                <img src="static-files/assets/images/image_2.png" class="w-full" alt="banner image" />
-                <div class="hidden lg:-translate-x-1/2 lg:-translate-y-1/2 lg:absolute lg:top-1/2 lg:left-1/2 lg:block">
-                    <p class="mb-2 text-3xl text-center text-white lg:mb-4 text-shadow lg:text-8xl font-bubblegum-sans">
+                <img src="assets/images/image_2.png" class="w-full" alt="banner image" />
+                <div class="flex-col hidden gap-8 xl:gap-16 lg:-translate-x-1/2 lg:-translate-y-1/2 lg:absolute lg:top-1/2 lg:left-1/2 lg:flex">
+                    <p class="text-6xl text-center text-white lg:mb-4 text-shadow xl:text-8xl font-bubblegum-sans">
                         Tata Steel Junior <br />
                         Kolkata Literary Meet
                     </p>
-                    <p class="text-lg font-medium text-center text-white lg:text-3xl font-graphik text-shadow">January 23-25, 2023 Kolkata</p>
+                    <p class="text-2xl font-medium text-center text-white xl:text-3xl font-graphik text-shadow">January 23-25, 2023 Kolkata</p>
                 </div>
             </div>
         </section>
         <!-- end of banner -->
 
         <!-- event schedule section -->
-        <section class="py-8 bg-cover lg:py-16" style="background-image: url('static-files/assets/backgrounds/bg_1.png')">
+        <section class="py-8 bg-cover lg:py-16" style="background-image: url('assets/backgrounds/bg_1.png')">
             <div class="container">
                 <div class="mb-8 lg:hidden">
                     <p class="mb-2 text-3xl text-center text-color-1 font-bubblegum-sans">
@@ -114,86 +112,122 @@
                     </p>
                     <p class="text-lg font-medium text-center text-color-1 font-graphik">January 23-25, 2023 Kolkata</p>
                 </div>
-                <h2 class="mb-8 text-3xl text-center lg:mb-16 lg:text-5xl text-color-1 wavy-line before:text-2xl font-bubblegum-sans before:-bottom-4" data-wave-size="xxxxx">EVENT SCHEDULE</h2>
+                <h2 class="mb-8 text-3xl text-center lg:mb-16 lg:text-[45px] text-color-1 title-wavy-line font-bubblegum-sans">Event Schedule</h2>
                 <!-- toggle buttons -->
-                <div class="flex flex-col items-center justify-center mb-8 bg-no-repeat lg:mb-10 lg:flex-row" style="background-image: url('static-files/assets/backgrounds/bg_2.png'); background-size: 100% 100%">
-                    <button data-tab-button data-tab-target="tab-1" class="w-full px-8 py-6 text-xl text-center text-white lg:text-3xl font-bubblegum-sans">Sunday, 23 January, 2023</button>
-                    <button data-tab-button data-tab-target="tab-2" class="w-full px-8 py-6 text-xl text-center text-white lg:text-3xl font-bubblegum-sans">Monday, 24 January, 2023</button>
-                    <button data-tab-button data-tab-target="tab-3" class="w-full px-8 py-6 text-xl text-center text-white lg:text-3xl font-bubblegum-sans">Tuesday, 25 January, 2023</button>
+                <div class="flex flex-col items-center justify-center mb-8 bg-no-repeat lg:mb-10 lg:flex-row" style="background-image: url('assets/backgrounds/bg_2.png'); background-size: 100% 100%">
+                    <button data-tab-button data-tab-target="tab-1" class="w-full px-8 py-6 text-xl text-center text-white date-btn lg:text-3xl font-bubblegum-sans">Sunday, 23 January, 2023</button>
+                    <button data-tab-button data-tab-target="tab-2" class="w-full px-8 py-6 text-xl text-center text-white date-btn lg:text-3xl font-bubblegum-sans">Monday, 24 January, 2023</button>
+                    <button data-tab-button data-tab-target="tab-3" class="w-full px-8 py-6 text-xl text-center text-white date-btn lg:text-3xl font-bubblegum-sans">Tuesday, 25 January, 2023</button>
                 </div>
                 <!-- end of toggle button -->
+
                 <!-- content section -->
                 <div class="px-4 lg:px-24">
-                    <div class="my-4" data-tab-content data-tab-id="tab-1">
-                        <h4 class="mb-2 text-xl font-semibold font-graphik text-color-4">The Boy Who Played with Light - Satyajit Ray</h4>
-                        <p class="flex flex-col gap-2 mb-4 lg:gap-4 lg:flex-row">
-                            <span class="flex items-center justify-start gap-2 text-base text-color-4 font-graphik">
-                                <img class="w-4" src="static-files/assets/images/image_3.png" alt="" />
-                                <span> 9.30 AM </span>
-                            </span>
-                            <span class="flex items-center justify-start gap-2 text-base text-color-4 font-graphik">
-                                <img class="w-3 mx-[2px]" src="static-files/assets/images/image_4.png" alt="" />
-                                <span>East Gate Kalam Lawn, Victoria Memorial Hall</span>
-                            </span>
-                        </p>
-                        <div class="flex flex-wrap gap-8 mb-4">
-                            <div>
-                                <div style="background-image: url('static-files/assets/backgrounds/bg_4.png'); background-size: 100% 100%; padding: 14px 14px 14px 20px">
-                                    <a href="#speaker_content_205" class="speaker-popup">
-                                        <img src="static-files/assets/images/image_5.png" alt="" class="w-[112px]" />
-                                    </a>
-                                </div>
-
-                                <p class="text-sm font-bold text-center font-graphik text-color-4">Andaleeb Wajid</p>
+                    <div data-tab-content data-tab-id="tab-1">
+                        <div class="event-box">
+                            <h4 class="mb-2 text-xl font-semibold font-graphik text-color-4">The Boy Who Played with Light - Satyajit Ray</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam officiis illum molestias libero consectetur quae harum impedit commodi nisi, aliquam hic, ducimus molestiae aliquid quibusdam repellendus.
+                                Consequuntur sunt et sed mollitia dignissimos impedit, maiores quae veritatis cum provident delectus porro laboriosam, omnis laborum! Ipsa dolorem optio delectus repellendus repellat temporibus architecto officia nemo
+                                quam, veniam iste officiis ea praesentium amet. Perferendis quas quaerat accusamus aliquam velit, assumenda quo quod dolor, libero qui unde delectus mollitia provident sint alias consequuntur? Quisquam praesentium,
+                                adipisci non aperiam laudantium tempora deserunt dicta, dolores laboriosam omnis velit. Officia architecto rerum sequi rem magnam natus?
+                            </p>
+                            <div class="flex flex-col gap-2 mb-4 lg:gap-4 lg:flex-row">
+                                <span class="flex items-center justify-start gap-2 text-base text-color-4 font-graphik">
+                                    <img class="w-4" src="assets/images/image_3.png" alt="" />
+                                    <span> 9.30 AM </span>
+                                </span>
+                                <span class="flex items-center justify-start gap-2 text-base text-color-4 font-graphik">
+                                    <img class="w-3 mx-[2px]" src="assets/images/image_4.png" alt="" />
+                                    <span>East Gate Kalam Lawn, Victoria Memorial Hall</span>
+                                </span>
                             </div>
+                            <div class="flex flex-wrap gap-8 mb-4">
+                                <div>
+                                    <div style="background-image: url('assets/backgrounds/bg_4.png'); background-size: 100% 100%; padding: 14px 14px 14px 20px">
+                                        <a href="#speaker_content_205" class="speaker-popup">
+                                            <img src="assets/images/image_5.png" alt="" class="w-[112px]" />
+                                        </a>
+                                    </div>
+
+                                    <p class="text-sm font-semibold text-center font-graphik text-color-4">Andaleeb Wajid</p>
+                                </div>
+                                <div>
+                                    <div style="background-image: url('assets/backgrounds/bg_4.png'); background-size: 100% 100%; padding: 14px 14px 14px 20px">
+                                        <a href="#speaker_content_205" class="speaker-popup">
+                                            <img src="assets/images/image_5.png" alt="" class="w-[112px]" />
+                                        </a>
+                                    </div>
+
+                                    <p class="text-sm font-semibold text-center font-graphik text-color-4">Andaleeb Wajid</p>
+                                </div>
+                                <div>
+                                    <div style="background-image: url('assets/backgrounds/bg_4.png'); background-size: 100% 100%; padding: 14px 14px 14px 20px">
+                                        <a href="#speaker_content_205" class="speaker-popup">
+                                            <img src="assets/images/image_5.png" alt="" class="w-[112px]" />
+                                        </a>
+                                    </div>
+
+                                    <p class="text-sm font-semibold text-center font-graphik text-color-4">Andaleeb Wajid</p>
+                                </div>
+                                <div>
+                                    <div style="background-image: url('assets/backgrounds/bg_4.png'); background-size: 100% 100%; padding: 14px 14px 14px 20px">
+                                        <a href="#speaker_content_205" class="speaker-popup">
+                                            <img src="assets/images/image_5.png" alt="" class="w-[112px]" />
+                                        </a>
+                                    </div>
+
+                                    <p class="text-sm font-semibold text-center font-graphik text-color-4">Andaleeb Wajid</p>
+                                </div>
+                            </div>
+                            <div class="py-[2px] bg-no-repeat my-[50px]" style="background-image: url('assets/backgrounds/bg_5.png'); background-size: 100% 100%"></div>
                         </div>
-                        <div class="py-[2px] bg-no-repeat" style="background-image: url('static-files/assets/backgrounds/bg_5.png'); background-size: 100% 100%"></div>
                     </div>
-                    <div class="my-4" data-tab-content data-tab-id="tab-2">
+                    <div data-tab-content data-tab-id="tab-2">
                         <h4 class="mb-2 text-xl font-semibold font-graphik text-color-4">The Boy Who Played with Light - Satyajit Ray 2</h4>
                         <p class="flex flex-col gap-2 mb-4 lg:gap-4 lg:flex-row">
                             <span class="flex items-center justify-start gap-2 text-base text-color-4 font-graphik">
-                                <img class="w-4" src="static-files/assets/images/image_3.png" alt="" />
+                                <img class="w-4" src="assets/images/image_3.png" alt="" />
                                 <span> 9.30 AM </span>
                             </span>
                             <span class="flex items-center justify-start gap-2 text-base text-color-4 font-graphik">
-                                <img class="w-3 mx-[2px]" src="static-files/assets/images/image_4.png" alt="" />
+                                <img class="w-3 mx-[2px]" src="assets/images/image_4.png" alt="" />
                                 <span>East Gate Kalam Lawn, Victoria Memorial Hall</span>
                             </span>
                         </p>
                         <div class="flex flex-wrap gap-8 mb-4">
                             <div>
-                                <div style="background-image: url('static-files/assets/backgrounds/bg_4.png'); background-size: 100% 100%; padding: 14px 14px 14px 20px">
-                                    <img src="static-files/assets/images/image_5.png" alt="" class="w-[112px]" />
+                                <div style="background-image: url('assets/backgrounds/bg_4.png'); background-size: 100% 100%; padding: 14px 14px 14px 20px">
+                                    <img src="assets/images/image_5.png" alt="" class="w-[112px]" />
                                 </div>
 
-                                <p class="text-sm font-bold text-center font-graphik text-color-4">Andaleeb Wajid</p>
+                                <p class="text-sm font-semibold text-center font-graphik text-color-4">Andaleeb Wajid</p>
                             </div>
                         </div>
-                        <div class="py-[2px] bg-no-repeat" style="background-image: url('static-files/assets/backgrounds/bg_5.png'); background-size: 100% 100%"></div>
+                        <div class="py-[2px] bg-no-repeat my-[50px]" style="background-image: url('assets/backgrounds/bg_5.png'); background-size: 100% 100%"></div>
                     </div>
-                    <div class="my-4" data-tab-content data-tab-id="tab-3">
+                    <div data-tab-content data-tab-id="tab-3">
                         <h4 class="mb-2 text-xl font-semibold font-graphik text-color-4">The Boy Who Played with Light - Satyajit Ray 3</h4>
                         <p class="flex flex-col gap-2 mb-4 lg:gap-4 lg:flex-row">
                             <span class="flex items-center justify-start gap-2 text-base text-color-4 font-graphik">
-                                <img class="w-4" src="static-files/assets/images/image_3.png" alt="" />
+                                <img class="w-4" src="assets/images/image_3.png" alt="" />
                                 <span> 9.30 AM </span>
                             </span>
                             <span class="flex items-center justify-start gap-2 text-base text-color-4 font-graphik">
-                                <img class="w-3 mx-[2px]" src="static-files/assets/images/image_4.png" alt="" />
+                                <img class="w-3 mx-[2px]" src="assets/images/image_4.png" alt="" />
                                 <span>East Gate Kalam Lawn, Victoria Memorial Hall</span>
                             </span>
                         </p>
                         <div class="flex flex-wrap gap-8 mb-4">
                             <div>
-                                <div style="background-image: url('static-files/assets/backgrounds/bg_4.png'); background-size: 100% 100%; padding: 14px 14px 14px 20px">
-                                    <img src="static-files/assets/images/image_5.png" alt="" class="w-[112px]" />
+                                <div style="background-image: url('assets/backgrounds/bg_4.png'); background-size: 100% 100%; padding: 14px 14px 14px 20px">
+                                    <img src="assets/images/image_5.png" alt="" class="w-[112px]" />
                                 </div>
 
-                                <p class="text-sm font-bold text-center font-graphik text-color-4">Andaleeb Wajid</p>
+                                <p class="text-sm font-semibold text-center font-graphik text-color-4">Andaleeb Wajid</p>
                             </div>
                         </div>
-                        <div class="py-[2px] bg-no-repeat" style="background-image: url('static-files/assets/backgrounds/bg_5.png'); background-size: 100% 100%"></div>
+                        <div class="py-[2px] bg-no-repeat my-[50px]" style="background-image: url('assets/backgrounds/bg_5.png'); background-size: 100% 100%"></div>
                     </div>
                     <button class="mx-auto block lg:mx-0 flex-1 px-10 py-2 text-[22px] text-center text-white font-bubblegum-sans bg-btn">Download Schedule</button>
                 </div>
@@ -203,45 +237,45 @@
         <!-- end of event schedule section -->
 
         <!-- spake section -->
-        <section class="py-8 bg-cover lg:py-16" style="background-image: url('static-files/assets/backgrounds/bg_8.jpg')">
+        <section class="py-8 lg:bg-cover lg:py-16 bg-[url('../backgrounds/bg_9.jpg')] lg:bg-[url('../backgrounds/bg_8.jpg')]">
             <div class="container">
-                <h2 class="mb-8 text-3xl text-center text-white lg:mb-16 lg:text-5xl before:decoration-white wavy-line before:text-2xl font-bubblegum-sans before:-bottom-4" data-wave-size="xxxxx">SPEAKERS</h2>
+                <h2 class="mb-8 text-3xl text-center text-white lg:mb-16 lg:text-[45px] white title-wavy-line font-bubblegum-sans">Speakers</h2>
                 <div class="grid grid-cols-1 gap-2 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
                     <div class="flex flex-col items-center justify-center col-span-1">
-                        <div style="background-image: url('static-files/assets/backgrounds/bg_7.png'); background-size: 100% 100%; padding: 22px 22px 22px 30px">
+                        <div style="background-image: url('assets/backgrounds/bg_7.png'); background-size: 100% 100%; padding: 22px 22px 22px 30px">
                             <a href="#speaker_content_205" class="speaker-popup">
-                                <img src="static-files/assets/images/image_5.png" alt="" class="w-[184px]" />
+                                <img src="assets/images/image_5.png" alt="" class="w-[184px] aspect-[28/39] object-cover" />
                             </a>
                         </div>
                         <p class="mt-2 text-lg text-center text-white lg:text-3xl font-bubblegum-sans">Andaleeb Wajid asdasdasd</p>
                     </div>
                     <div class="flex flex-col items-center justify-center col-span-1">
-                        <div style="background-image: url('static-files/assets/backgrounds/bg_7.png'); background-size: 100% 100%; padding: 22px 22px 22px 30px">
-                            <img src="static-files/assets/images/image_5.png" alt="" class="w-[184px]" />
+                        <div style="background-image: url('assets/backgrounds/bg_7.png'); background-size: 100% 100%; padding: 22px 22px 22px 30px">
+                            <img src="assets/images/image_5.png" alt="" class="w-[184px] aspect-[28/39] object-cover" />
                         </div>
                         <p class="mt-2 text-lg text-center text-white lg:text-3xl font-bubblegum-sans">Andaleeb Wajid asdasdasd</p>
                     </div>
                     <div class="flex flex-col items-center justify-center col-span-1">
-                        <div style="background-image: url('static-files/assets/backgrounds/bg_7.png'); background-size: 100% 100%; padding: 22px 22px 22px 30px">
-                            <img src="static-files/assets/images/image_5.png" alt="" class="w-[184px]" />
+                        <div style="background-image: url('assets/backgrounds/bg_7.png'); background-size: 100% 100%; padding: 22px 22px 22px 30px">
+                            <img src="assets/images/image_5.png" alt="" class="w-[184px] aspect-[28/39] object-cover" />
                         </div>
                         <p class="mt-2 text-lg text-center text-white lg:text-3xl font-bubblegum-sans">Andaleeb Wajid asdasdasd</p>
                     </div>
                     <div class="flex flex-col items-center justify-center col-span-1">
-                        <div style="background-image: url('static-files/assets/backgrounds/bg_7.png'); background-size: 100% 100%; padding: 22px 22px 22px 30px">
-                            <img src="static-files/assets/images/image_5.png" alt="" class="w-[184px]" />
+                        <div style="background-image: url('assets/backgrounds/bg_7.png'); background-size: 100% 100%; padding: 22px 22px 22px 30px">
+                            <img src="assets/images/image_5.png" alt="" class="w-[184px] aspect-[28/39] object-cover" />
                         </div>
                         <p class="mt-2 text-lg text-center text-white lg:text-3xl font-bubblegum-sans">Andaleeb Wajid asdasdasd</p>
                     </div>
                     <div class="flex flex-col items-center justify-center col-span-1">
-                        <div style="background-image: url('static-files/assets/backgrounds/bg_7.png'); background-size: 100% 100%; padding: 22px 22px 22px 30px">
-                            <img src="static-files/assets/images/image_5.png" alt="" class="w-[184px]" />
+                        <div style="background-image: url('assets/backgrounds/bg_7.png'); background-size: 100% 100%; padding: 22px 22px 22px 30px">
+                            <img src="assets/images/image_5.png" alt="" class="w-[184px] aspect-[28/39] object-cover" />
                         </div>
                         <p class="mt-2 text-lg text-center text-white lg:text-3xl font-bubblegum-sans">Andaleeb Wajid asdasdasd</p>
                     </div>
                     <div class="flex flex-col items-center justify-center col-span-1">
-                        <div style="background-image: url('static-files/assets/backgrounds/bg_7.png'); background-size: 100% 100%; padding: 22px 22px 22px 30px">
-                            <img src="static-files/assets/images/image_5.png" alt="" class="w-[184px]" />
+                        <div style="background-image: url('assets/backgrounds/bg_7.png'); background-size: 100% 100%; padding: 22px 22px 22px 30px">
+                            <img src="assets/images/image_5.png" alt="" class="w-[184px] aspect-[28/39] object-cover" />
                         </div>
                         <p class="mt-2 text-lg text-center text-white lg:text-3xl font-bubblegum-sans">Andaleeb Wajid asdasdasd</p>
                     </div>
@@ -251,39 +285,39 @@
         <!-- end of spake section -->
 
         <!-- sponsor section -->
-        <section class="py-8 bg-cover lg:py-16">
+        <section class="py-8 bg-cover lg:py-16 lg:gap-y-[61px]">
             <div class="container">
-                <h2 class="mb-8 text-3xl text-center text-color-1 lg:mb-16 lg:text-5xl before:decoration-coltext-color-1 wavy-line before:text-2xl font-bubblegum-sans before:-bottom-4" data-wave-size="xxxxx">Sponsors</h2>
+                <h2 class="mb-8 text-3xl text-center text-color-1 lg:mb-16 lg:text-[45px] before:decoration-coltext-color-1 title-wavy-line font-bubblegum-sans">Sponsors</h2>
                 <div class="flex flex-col items-center justify-center gap-4 mb-10">
                     <p class="text-sm font-semibold font-graphik text-color-4">PRESENTED BY</p>
-                    <img src="static-files/assets/images/image_6.png" alt="" />
+                    <img src="assets/images/image_6.png" alt="" />
                 </div>
                 <div class="flex flex-col items-center justify-center gap-4 mb-10">
                     <p class="text-sm font-semibold font-graphik text-color-4">PRESENTED BY</p>
                     <div class="flex flex-wrap items-center justify-center w-full max-w-3xl gap-4 lg:justify-between">
-                        <img src="static-files/assets/images/image_7.png" alt="" />
-                        <img src="static-files/assets/images/image_7.png" alt="" />
-                        <img src="static-files/assets/images/image_7.png" alt="" />
-                        <img src="static-files/assets/images/image_7.png" alt="" />
-                        <img src="static-files/assets/images/image_7.png" alt="" />
+                        <img src="assets/images/image_7.png" alt="" />
+                        <img src="assets/images/image_7.png" alt="" />
+                        <img src="assets/images/image_7.png" alt="" />
+                        <img src="assets/images/image_7.png" alt="" />
+                        <img src="assets/images/image_7.png" alt="" />
                     </div>
                 </div>
                 <div class="flex flex-wrap items-center justify-between w-full max-w-3xl gap-4 mx-auto">
                     <div class="flex flex-col items-center justify-center gap-4">
                         <p class="text-sm font-semibold font-graphik text-color-4">Media Partner</p>
-                        <img src="static-files/assets/images/image_8.png" alt="" />
+                        <img src="assets/images/image_8.png" alt="" />
                     </div>
                     <div class="flex flex-col items-center justify-center gap-4">
                         <p class="text-sm font-semibold font-graphik text-color-4">Media Partner</p>
-                        <img src="static-files/assets/images/image_8.png" alt="" />
+                        <img src="assets/images/image_8.png" alt="" />
                     </div>
                     <div class="flex flex-col items-center justify-center gap-4">
                         <p class="text-sm font-semibold font-graphik text-color-4">Media Partner</p>
-                        <img src="static-files/assets/images/image_8.png" alt="" />
+                        <img src="assets/images/image_8.png" alt="" />
                     </div>
                     <div class="flex flex-col items-center justify-center gap-4">
                         <p class="text-sm font-semibold font-graphik text-color-4">Media Partner</p>
-                        <img src="static-files/assets/images/image_8.png" alt="" />
+                        <img src="assets/images/image_8.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -295,12 +329,12 @@
             <div class="container mb-8">
                 <div class="grid grid-cols-1 gap-4 lg:gap-8 lg:grid-cols-12">
                     <div class="col-span-1 lg:col-span-2">
-                        <img src="static-files/assets/images/image_9.png" class="mb-4" alt="gameplan logo" />
+                        <img src="assets/images/image_9.png" class="mb-4" alt="gameplan logo" />
                         <h5 class="text-color-1 font-bubblegum-sans text-[26px]">Follow Us</h5>
                         <div class="flex items-center justify-start gap-2 mb-4">
-                            <a href="/"><img src="static-files/assets/logo/fb.png" alt="" /></a>
-                            <a href="/"><img src="static-files/assets/logo/insta.png" alt="" /></a>
-                            <a href="/"><img src="static-files/assets/logo/twitter.png" alt="" /></a>
+                            <a href="/"><img src="assets/logo/fb.png" alt="" /></a>
+                            <a href="/"><img src="assets/logo/insta.png" alt="" /></a>
+                            <a href="/"><img src="assets/logo/twitter.png" alt="" /></a>
                         </div>
                         <h5 class="text-color-1 font-bubblegum-sans text-[26px]">Contact Info</h5>
                         <div>
